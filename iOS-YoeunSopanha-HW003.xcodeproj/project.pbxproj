@@ -58,16 +58,56 @@
 		49A1BCA8273507B40046D980 /* iOS-YoeunSopanha-HW003 */ = {
 			isa = PBXGroup;
 			children = (
-				49A1BCA9273507B40046D980 /* AppDelegate.swift */,
-				49A1BCAB273507B40046D980 /* SceneDelegate.swift */,
-				49A1BCAD273507B40046D980 /* ViewController.swift */,
-				49A1BCAF273507B40046D980 /* Main.storyboard */,
+				49A1BCC42735090C0046D980 /* Controllers  */,
+				49A1BCC3273508E40046D980 /* Views */,
+				49A1BCC2273508B80046D980 /* Extensions */,
+				49A1BCC1273508A50046D980 /* AppDelegate */,
+				49A1BCC02735089C0046D980 /* Models */,
 				49A1BCB5273507BE0046D980 /* Assets.xcassets */,
-				49A1BCB7273507BE0046D980 /* LaunchScreen.storyboard */,
 				49A1BCBA273507BE0046D980 /* Info.plist */,
 				49A1BCB2273507B40046D980 /* iOS_YoeunSopanha_HW003.xcdatamodeld */,
 			);
 			path = "iOS-YoeunSopanha-HW003";
+			sourceTree = "<group>";
+		};
+		49A1BCC02735089C0046D980 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49A1BCC1273508A50046D980 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				49A1BCA9273507B40046D980 /* AppDelegate.swift */,
+				49A1BCAB273507B40046D980 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		49A1BCC2273508B80046D980 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49A1BCC3273508E40046D980 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49A1BCAF273507B40046D980 /* Main.storyboard */,
+				49A1BCB7273507BE0046D980 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A1BCC42735090C0046D980 /* Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				49A1BCAD273507B40046D980 /* ViewController.swift */,
+			);
+			path = "Controllers ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
