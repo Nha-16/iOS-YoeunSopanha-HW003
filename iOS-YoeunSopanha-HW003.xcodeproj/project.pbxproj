@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		490EFCA5273B74090074DF2B /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EFCA4273B74090074DF2B /* WriteViewController.swift */; };
+		490EFCA7273BEDC30074DF2B /* MyNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EFCA6273BEDC20074DF2B /* MyNoteTableViewCell.swift */; };
 		49A1BCAA273507B40046D980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A1BCA9273507B40046D980 /* AppDelegate.swift */; };
 		49A1BCAC273507B40046D980 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A1BCAB273507B40046D980 /* SceneDelegate.swift */; };
 		49A1BCAE273507B40046D980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A1BCAD273507B40046D980 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		490EFCA4273B74090074DF2B /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		490EFCA6273BEDC20074DF2B /* MyNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNoteTableViewCell.swift; sourceTree = "<group>"; };
 		49A1BCA6273507B40046D980 /* iOS-YoeunSopanha-HW003.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-YoeunSopanha-HW003.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A1BCA9273507B40046D980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A1BCAB273507B40046D980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				49A1BCAF273507B40046D980 /* Main.storyboard */,
 				49A1BCB7273507BE0046D980 /* LaunchScreen.storyboard */,
+				490EFCA6273BEDC20074DF2B /* MyNoteTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A1BCB4273507B40046D980 /* iOS_YoeunSopanha_HW003.xcdatamodeld in Sources */,
+				490EFCA7273BEDC30074DF2B /* MyNoteTableViewCell.swift in Sources */,
 				49A1BCAE273507B40046D980 /* ViewController.swift in Sources */,
 				49A1BCAA273507B40046D980 /* AppDelegate.swift in Sources */,
 				490EFCA5273B74090074DF2B /* WriteViewController.swift in Sources */,
